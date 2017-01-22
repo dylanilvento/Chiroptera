@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 70379f666aedaaa4fa01d6cf7bb0970d
+timeCreated: 1485127579
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - wall: {fileID: 129502, guid: b113659140e42984b8530cc350ebce87, type: 2}
+  - goal: {fileID: 1678596693007252, guid: af2dbcb865c25ef4b95ce523e9343001, type: 2}
+  - bg: {fileID: 1425413269995618, guid: 11c25c3f91e3b4c228273461b0469f2d, type: 2}
+  - web: {fileID: 1547161076994526, guid: 113ad051359c2e84396fb0402d26013b, type: 2}
+  - insect: {fileID: 1185313301075556, guid: d1ad68d3ee8b884488da23555556566a, type: 2}
+  - solidWallSprite: {fileID: 21300000, guid: 44cb2475811f42045b4c7359b011221c, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
