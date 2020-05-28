@@ -347,7 +347,7 @@ public class MapGenerator : MonoBehaviour {
                 		}
 
                         Vector3 bgPos = new Vector3(-width/2 + x, -height/2 + y, -8.5f);
-                        Instantiate(bg, bgPos, Quaternion.identity);
+                        Instantiate(bg, bgPos, Quaternion.identity); //need this
                 		
                     // Gizmos.color = (map[x,y] == 1)?Color.black:Color.white;
                     // 
