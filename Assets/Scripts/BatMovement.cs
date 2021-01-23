@@ -53,8 +53,8 @@ public class BatMovement : MonoBehaviour {
 
         if (health < 0)
         {
-            transform.FindChild("Light").GetComponent<Light>().intensity = 2f;
-            transform.FindChild("Light").transform.localPosition = new Vector3(transform.FindChild("Light").transform.localPosition.x, transform.FindChild("Light").transform.localPosition.y, 0f);
+            transform.Find("Light").GetComponent<Light>().intensity = 2f;
+            transform.Find("Light").transform.localPosition = new Vector3(transform.Find("Light").transform.localPosition.x, transform.Find("Light").transform.localPosition.y, 0f);
             flyAnim.SetBool("Dead", true);
             GetComponent<Rigidbody2D>().velocity = new Vector2(0f, -1f);
             GetComponent<CircleCollider2D>().enabled = false;
